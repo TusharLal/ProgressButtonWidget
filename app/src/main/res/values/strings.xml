@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProgressButtonWidget</string>
+    <string name="start_process">START PROCESS</string>
+    <string name="process_started">PROCESS STARTED</string>
+    <string name="process_finished">PROCESS FINISHED</string>
+</resources>

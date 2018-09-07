@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressButton">
+        <attr name="text" format="string|integer"/>
+        <attr name="textColor" format="integer"/>
+        <attr name="textSize" format="float|dimension"/>
+        <attr name="textOnProgressStarted" format="string|integer"/>
+        <attr name="textOnProgressStopped" format="string|integer"/>
+        <attr name="progressBarColor" format="color"/>
+        <attr name="progressBarSize" format="dimension"/>
+        <attr name="disableBackgroundDrawable" format="reference"/>
+        <attr name="enableBackgroundDrawable" format="reference"/>
+        <attr name="disableBackgroundColor" format="color"/>
+        <attr name="enableBackgroundColor" format="color"/>
+    </declare-styleable>
+</resources>

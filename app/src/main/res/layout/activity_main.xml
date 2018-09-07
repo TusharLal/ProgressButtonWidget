@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FF00FFFF">
+
+    <button.progress.example.tusharlal.progressbuttonexample.ProgressButton
+        xmlns:progressbutton="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progressButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/map_button_height"
+        android:layout_marginBottom="@dimen/map_dealer_margin_left"
+        android:layout_marginEnd="@dimen/map_dealer_margin_left"
+        android:layout_marginStart="@dimen/map_dealer_margin_left"
+        android:layout_marginTop="@dimen/map_dealer_margin_left"
+        android:layout_centerInParent="true"
+        progressbutton:enableBackgroundDrawable="@drawable/map_unselected_bg"
+        progressbutton:disableBackgroundDrawable="@drawable/map_selected_bg"
+        progressbutton:progressBarColor="#FF0000FF"
+        progressbutton:text="@string/start_process"
+        progressbutton:textOnProgressStarted="@string/process_started"
+        progressbutton:textOnProgressStopped="@string/process_finished"
+        progressbutton:textColor="@color/map_button_unselected_text_color"
+        progressbutton:textSize="@dimen/map_dealer_details_text"/>
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Error"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Reset Button" />
+
+</RelativeLayout>
